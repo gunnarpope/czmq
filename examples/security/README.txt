@@ -1,6 +1,10 @@
 These examples show the five main security patterns that ZeroMQ/4.x 
 provides, and CZMQ wraps up in its zauth class:
 
+To build:
+
+    $ gcc ironhouse.c
+
 * Grasslands - plain text with no authentication
 * Strawhouse - plain text with authentication by IP address
 * Woodhouse - plain text with authentication by IP address and/or name & password
